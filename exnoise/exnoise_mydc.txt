@@ -1,0 +1,8 @@
+discord "", at 907 distance to closest neighbor: 0.2461448174680801
+discord "", at 812 distance to closest neighbor: 0.28780920524257125
+discord "", at 119 distance to closest neighbor: 2.7474942927737485
+discord "", at 750 distance to closest neighbor: 3.0244554852519547
+discord "", at 59 distance to closest neighbor: 3.06389448902293
+59 750 119 812 907
+
+70:89 133:152 761:780

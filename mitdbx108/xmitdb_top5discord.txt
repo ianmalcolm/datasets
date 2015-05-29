@@ -1,0 +1,50 @@
+Five best discords in original dataset:
+
+Five best discords:
+
+discord "cddda", at 4300 distance to closest neighbor: 3.862427992856307
+discord "ddaae", at 3017 distance to closest neighbor: 4.051635472250682
+discord "cabed", at 3444 distance to closest neighbor: 4.063243778066978
+discord "adebb", at 1748 distance to closest neighbor: 4.128440989041751
+discord "baedb", at 3844 distance to closest neighbor: 4.3222187589246355
+
+discords=t(rev(c(4300,3017,3444,1748,3844)))
+words=t(rev(c("cddda","ddaae","cabed","adebb","baedb")))
+distances=t(rev(c(3.8624,4.0516,4.0632,4.1284,4.3222)))
+
+DONE
+BUILD SUCCESSFUL (total time: 17 seconds)
+
+==========================================================================
+
+Five best discords:
+
+discord "ccbeb", at 6931 distance to closest neighbor: 3.5578514917160953
+discord "cdeaa", at 9574 distance to closest neighbor: 3.737589275203081
+discord "dbabe", at 1937 distance to closest neighbor: 3.743812357192718
+discord "dcdac", at 10336 distance to closest neighbor: 3.937669427461646
+discord "adddb", at 3859 distance to closest neighbor: 4.014335515814692
+
+discords=t(rev(c(6931,9574,1937,10336,3859)))
+words=t(rev(c("ccbeb","cdeaa","dbabe","dcdac","adddb")))
+distances=t(rev(c(3.5579,3.7376,3.7438,3.9377,4.0143)))
+
+DONE
+BUILD SUCCESSFUL (total time: 23 seconds)
+
+==========================================================================
+
+Five best discords in modification:
+
+discord "aecbd", at 751 distance to closest neighbor: 3.9534952889816393
+discord "aecea", at 3577 distance to closest neighbor: 4.450146065018541
+discord "aedda", at 1464 distance to closest neighbor: 4.496426358787611
+discord "baaed", at 2363 distance to closest neighbor: 4.706061506126011
+discord "dedab", at 3012 distance to closest neighbor: 5.0228349202662566
+
+discords=t(rev(c(751,3577,1464,2363,3012)))
+words=t(rev(c("aecbd","aecea","aedda","baaed","dedab")))
+distances=t(rev(c(3.9535,4.4501,4.4964,4.7061,5.0228)))
+
+DONE
+BUILD SUCCESSFUL (total time: 5 seconds)

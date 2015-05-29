@@ -1,0 +1,320 @@
+ECG100.arff length=360 parallelism 1 on ian-lab, original version of kernel function
+
+run:
+getDiscordsAlgorithm [INFO|main|12:29:28] new discord: baecb, position 546680, distance 11.057789109944176, elapsed time: 5m 24s 363ms, #distfunc: 19331 
+getDiscordsAlgorithm [INFO|main|12:33:14] new discord: bcaeb, position 567093, distance 4.256583136742428, elapsed time: 3m 46s 775ms, #distfunc: 25908 
+getDiscordsAlgorithm [INFO|main|12:36:18] new discord: acbdd, position 583153, distance 4.122662974340739, elapsed time: 3m 3s 210ms, #distfunc: 18471 
+getDiscordsAlgorithm [INFO|main|12:38:58] new discord: eecca, position 142133, distance 4.310577107534444, elapsed time: 2m 39s 984ms, #distfunc: 11457 
+getDiscordsAlgorithm [INFO|main|12:42:49] new discord: eceaa, position 127873, distance 3.857136243380572, elapsed time: 3m 50s 918ms, #distfunc: 30534 
+getDiscordsAlgorithm [INFO|main|12:45:34] new discord: caced, position 12948, distance 3.829223158814331, elapsed time: 2m 45s 721ms, #distfunc: 22327 
+getDiscordsAlgorithm [INFO|main|12:48:15] new discord: ebeab, position 433627, distance 3.6339475780478767, elapsed time: 2m 41s 169ms, #distfunc: 20861 
+getDiscordsAlgorithm [INFO|main|12:50:55] new discord: dbeaa, position 435935, distance 3.5483235478180406, elapsed time: 2m 39s 655ms, #distfunc: 19350 
+getDiscordsAlgorithm [INFO|main|12:54:42] new discord: dbaeb, position 422531, distance 3.412759147669229, elapsed time: 3m 47s 327ms, #distfunc: 32998 
+getDiscordsAlgorithm [INFO|main|12:57:21] new discord: caebc, position 305494, distance 3.4343121582057696, elapsed time: 2m 38s 847ms, #distfunc: 20892 
+getDiscordsAlgorithm [INFO|main|1:00:08] new discord: beaed, position 628848, distance 3.379829877375487, elapsed time: 2m 46s 473ms, #distfunc: 22407 
+getDiscordsAlgorithm [INFO|main|1:03:06] new discord: ddaec, position 318934, distance 3.2655895333002283, elapsed time: 2m 58s 625ms, #distfunc: 24215 
+getDiscordsAlgorithm [INFO|main|1:06:57] new discord: dadda, position 1773, distance 3.185518011250291, elapsed time: 3m 50s 783ms, #distfunc: 37033 
+getDiscordsAlgorithm [INFO|main|1:09:49] new discord: cadec, position 120656, distance 3.1209613903411246, elapsed time: 2m 51s 822ms, #distfunc: 23584 
+getDiscordsAlgorithm [INFO|main|1:12:26] new discord: eadba, position 156614, distance 3.1568298972228472, elapsed time: 2m 37s 363ms, #distfunc: 19996 
+getDiscordsAlgorithm [INFO|main|1:14:53] new discord: cbdda, position 241052, distance 3.266270809348177, elapsed time: 2m 26s 848ms, #distfunc: 15078 
+getDiscordsAlgorithm [INFO|main|1:17:20] new discord: eeada, position 397048, distance 3.0751544676649987, elapsed time: 2m 26s 778ms, #distfunc: 17087 
+getDiscordsAlgorithm [INFO|main|1:19:43] new discord: ccaea, position 66521, distance 3.083301801640572, elapsed time: 2m 22s 682ms, #distfunc: 15668 
+getDiscordsAlgorithm [INFO|main|1:23:46] new discord: bcaed, position 74652, distance 3.029228449622114, elapsed time: 4m 3s 667ms, #distfunc: 41397 
+getDiscordsAlgorithm [INFO|main|1:26:34] new discord: ceaeb, position 242038, distance 3.1380846068900055, elapsed time: 2m 47s 335ms, #distfunc: 21168 
+
+
+
+discords=t(rev(c(74652,397048,66521,120656,242038,156614,1773,318934,241052,628848,422531,305494,435935,433627,12948,127873,583153,567093,142133,546680)))
+words=t(rev(c("bcaed","eeada","ccaea","cadec","ceaeb","eadba","dadda","ddaec","cbdda","beaed","dbaeb","caebc","dbeaa","ebeab","caced","eceaa","acbdd","bcaeb","eecca","baecb")))
+distances=t(rev(c(3.0292,3.0752,3.0833,3.121,3.1381,3.1568,3.1855,3.2656,3.2663,3.3798,3.4128,3.4343,3.5483,3.6339,3.8292,3.8571,4.1227,4.2566,4.3106,11.0578)))
+
+DONE
+instances2Discords [INFO|main|1:26:34] discords search finished in : 2m 30s 547ms, #distfunc: 459762 
+BUILD SUCCESSFUL (total time: 62 minutes 59 seconds)
+
+
+ECG100.arff length=360 parallelism 8 on ian-lab, original version of kernel function
+
+run:
+2015-01-19 15:22:13 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #0/0 discord...
+2015-01-19 15:22:32 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 0 finds #0 discord: baddd at 52747, distance 4.4093395197013345, elapsed time: 0m 18s 802ms, #distfunc: 6779
+2015-01-19 15:22:32 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #1/0 discord...
+2015-01-19 15:22:48 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 81250 finds #0 discord: dbbea at 128419, distance 5.454993125568539, elapsed time: 0m 16s 563ms, #distfunc: 3244
+2015-01-19 15:22:48 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #2/0 discord...
+2015-01-19 15:23:04 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 162500 finds #0 discord: cbbea at 219243, distance 4.784218849509292, elapsed time: 0m 15s 589ms, #distfunc: 4685
+2015-01-19 15:23:04 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #3/0 discord...
+2015-01-19 15:23:19 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 243750 finds #0 discord: bbdec at 308062, distance 4.432561336293045, elapsed time: 0m 15s 114ms, #distfunc: 7655
+2015-01-19 15:23:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #4/0 discord...
+2015-01-19 15:23:35 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 325000 finds #0 discord: ebaae at 378536, distance 4.899869896231944, elapsed time: 0m 15s 529ms, #distfunc: 6269
+2015-01-19 15:23:35 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #5/0 discord...
+2015-01-19 15:23:51 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 406250 finds #0 discord: daddd at 438829, distance 4.801046760863726, elapsed time: 0m 15s 828ms, #distfunc: 7573
+2015-01-19 15:23:51 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #6/0 discord...
+2015-01-19 15:24:05 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 487500 finds #0 discord: cbbae at 546561, distance 11.666863331675744, elapsed time: 0m 14s 785ms, #distfunc: 4273
+2015-01-19 15:24:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #7/0 discord...
+2015-01-19 15:24:22 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 568750 finds #0 discord: aaddd at 583237, distance 5.9641973475062, elapsed time: 0m 17s 124ms, #distfunc: 4024
+2015-01-19 15:24:22 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #0/0 discord
+2015-01-19 15:24:22 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 0 refines dist of #0/1 discord baddd at position 52747 from 4.4093395197013345 to 1.4767616598490074
+2015-01-19 15:24:22 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #1/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 81250 refines dist of #0/1 discord dbbea at position 128419 from 5.454993125568539 to 2.046967268912721
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #2/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 162500 refines dist of #0/1 discord cbbea at position 219243 from 4.784218849509292 to 1.121160113453916
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #3/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 243750 refines dist of #0/1 discord bbdec at position 308062 from 4.432561336293045 to 0.9602733985693879
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #4/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 325000 refines dist of #0/1 discord ebaae at position 378536 from 4.899869896231944 to 1.7266658622906745
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #5/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 406250 refines dist of #0/1 discord daddd at position 438829 from 4.801046760863726 to 0.8085790004693415
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #6/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #7/0 discord
+2015-01-19 15:24:23 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 568750 refines dist of #0/1 discord aaddd at position 583237 from 5.9641973475062 to 5.196212563011637
+2015-01-19 15:24:23 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 0
+2015-01-19 15:24:23 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 0
+2015-01-19 15:24:23 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #0/1 discord...
+2015-01-19 15:24:32 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 0 finds #1 discord: caced at 12948, distance 4.380610688020562, elapsed time: 0m 9s 381ms, #distfunc: 3905
+2015-01-19 15:24:32 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #1/1 discord...
+2015-01-19 15:24:43 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 81250 finds #1 discord: bebcb at 142070, distance 4.679463110229645, elapsed time: 0m 11s 304ms, #distfunc: 5021
+2015-01-19 15:24:43 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #2/1 discord...
+2015-01-19 15:24:54 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 162500 finds #1 discord: bacce at 194574, distance 4.632672015154967, elapsed time: 0m 10s 921ms, #distfunc: 5146
+2015-01-19 15:24:54 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #3/1 discord...
+2015-01-19 15:25:04 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 243750 finds #1 discord: dadcd at 244690, distance 4.376608275822735, elapsed time: 0m 9s 232ms, #distfunc: 5078
+2015-01-19 15:25:04 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #4/1 discord...
+2015-01-19 15:25:13 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 325000 finds #1 discord: dadcd at 371104, distance 4.769646213295071, elapsed time: 0m 9s 290ms, #distfunc: 4044
+2015-01-19 15:25:13 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #5/1 discord...
+2015-01-19 15:25:22 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 406250 finds #1 discord: caddd at 452635, distance 4.767766772819326, elapsed time: 0m 9s 544ms, #distfunc: 5240
+2015-01-19 15:25:22 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #6/1 discord...
+2015-01-19 15:25:33 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 487500 finds #1 discord: ebcbc at 499965, distance 4.72506084616908, elapsed time: 0m 10s 599ms, #distfunc: 8267
+2015-01-19 15:25:33 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #7/1 discord...
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 568750 finds #1 discord: ecdda at 582635, distance 5.44955273394065, elapsed time: 0m 12s 618ms, #distfunc: 8514
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #0/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 0 refines dist of #1/2 discord caced at position 12948 from 4.380610688020562 to 1.8171406109599775
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #1/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #2/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 162500 refines dist of #1/2 discord bacce at position 194574 from 4.632672015154967 to 0.6403124237432846
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #3/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 243750 refines dist of #1/2 discord dadcd at position 244690 from 4.376608275822735 to 1.6503105768309183
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #4/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 325000 refines dist of #1/2 discord dadcd at position 371104 from 4.769646213295071 to 1.3936014494825977
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #5/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 406250 refines dist of #1/2 discord caddd at position 452635 from 4.767766772819326 to 2.0555473723560853
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #6/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 487500 refines dist of #0/2 discord ebcbc at position 499965 from 4.72506084616908 to 1.3512494218315132
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #7/1 discord
+2015-01-19 15:25:46 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 568750 refines dist of #1/2 discord ecdda at position 582635 from 5.44955273394065 to 5.4152354519448185
+2015-01-19 15:25:46 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 1
+2015-01-19 15:25:46 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 1
+2015-01-19 15:25:46 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #0/2 discord...
+2015-01-19 15:25:55 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 0 finds #2 discord: bbcde at 62852, distance 4.291273121114524, elapsed time: 0m 8s 694ms, #distfunc: 2361
+2015-01-19 15:25:55 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #1/2 discord...
+2015-01-19 15:26:05 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 81250 finds #2 discord: dabee at 157098, distance 4.703259508043334, elapsed time: 0m 10s 601ms, #distfunc: 2920
+2015-01-19 15:26:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #2/2 discord...
+2015-01-19 15:26:16 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 162500 finds #2 discord: caddc at 163339, distance 4.360524624400143, elapsed time: 0m 10s 440ms, #distfunc: 5388
+2015-01-19 15:26:16 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #3/2 discord...
+2015-01-19 15:26:24 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 243750 finds #2 discord: cabbe at 279560, distance 4.262164942843018, elapsed time: 0m 8s 790ms, #distfunc: 7104
+2015-01-19 15:26:24 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #4/2 discord...
+2015-01-19 15:26:33 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 325000 finds #2 discord: eacae at 349205, distance 4.59985869348179, elapsed time: 0m 9s 102ms, #distfunc: 3227
+2015-01-19 15:26:33 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #5/2 discord...
+2015-01-19 15:26:44 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 406250 finds #2 discord: ebdca at 483045, distance 4.378598520074661, elapsed time: 0m 10s 557ms, #distfunc: 8014
+2015-01-19 15:26:44 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #6/2 discord...
+2015-01-19 15:26:53 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 487500 finds #2 discord: bcaee at 567090, distance 4.5793585795392815, elapsed time: 0m 9s 253ms, #distfunc: 4779
+2015-01-19 15:26:53 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #7/2 discord...
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 568750 finds #2 discord: daecc at 647376, distance 4.801458111865606, elapsed time: 0m 11s 916ms, #distfunc: 8230
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #0/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 0 refines dist of #2/3 discord bbcde at position 62852 from 4.291273121114524 to 1.8408218273369106
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #1/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 81250 refines dist of #2/3 discord dabee at position 157098 from 4.703259508043334 to 4.24278505229761
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #2/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 162500 refines dist of #2/3 discord caddc at position 163339 from 4.360524624400143 to 1.4141163318482652
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #3/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 243750 refines dist of #2/3 discord cabbe at position 279560 from 4.262164942843018 to 4.074598139694268
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #4/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 325000 refines dist of #2/3 discord eacae at position 349205 from 4.59985869348179 to 2.877125301407641
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #5/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 406250 refines dist of #2/3 discord ebdca at position 483045 from 4.378598520074661 to 1.1368377192897854
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #6/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 487500 refines dist of #1/3 discord bcaee at position 567090 from 4.5793585795392815 to 4.3767682141050175
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #7/2 discord
+2015-01-19 15:27:05 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 568750 refines dist of #0/3 discord daecc at position 647376 from 4.801458111865606 to 1.6976896064946614
+2015-01-19 15:27:05 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 2
+2015-01-19 15:27:05 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 2
+2015-01-19 15:27:05 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #0/3 discord...
+2015-01-19 15:27:15 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 0 finds #3 discord: ebcba at 39511, distance 4.032799895853996, elapsed time: 0m 9s 295ms, #distfunc: 4524
+2015-01-19 15:27:15 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #1/3 discord...
+2015-01-19 15:27:25 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 81250 finds #3 discord: dabcd at 111761, distance 4.403714341325967, elapsed time: 0m 10s 776ms, #distfunc: 4927
+2015-01-19 15:27:25 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #2/3 discord...
+2015-01-19 15:27:33 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 162500 finds #3 discord: ebbda at 185209, distance 4.683532320802325, elapsed time: 0m 7s 943ms, #distfunc: 2315
+2015-01-19 15:27:33 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #3/3 discord...
+2015-01-19 15:27:42 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 243750 finds #3 discord: eaccb at 245208, distance 4.202061993831124, elapsed time: 0m 8s 176ms, #distfunc: 6214
+2015-01-19 15:27:42 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #4/3 discord...
+2015-01-19 15:27:50 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 325000 finds #3 discord: dabee at 377080, distance 4.7772690943676235, elapsed time: 0m 8s 601ms, #distfunc: 2150
+2015-01-19 15:27:50 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #5/3 discord...
+2015-01-19 15:27:59 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 406250 finds #3 discord: eccca at 409308, distance 4.292234266672772, elapsed time: 0m 9s 309ms, #distfunc: 5708
+2015-01-19 15:27:59 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #6/3 discord...
+2015-01-19 15:28:08 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 487500 finds #3 discord: deada at 496425, distance 4.37599131626195, elapsed time: 0m 8s 603ms, #distfunc: 5223
+2015-01-19 15:28:08 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Discovering #7/3 discord...
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER findNextDiscord WORKER at 568750 finds #3 discord: eadcd at 587274, distance 4.7860395944872876, elapsed time: 0m 10s 708ms, #distfunc: 6226
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #0/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 0 refines dist of #3/4 discord ebcba at position 39511 from 4.032799895853996 to 1.5241719063150314
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #1/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 81250 refines dist of #2/4 discord dabcd at position 111761 from 4.403714341325967 to 2.308289409931085
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #2/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 162500 refines dist of #3/4 discord ebbda at position 185209 from 4.683532320802325 to 1.9800946947052815
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #3/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 243750 refines dist of #3/4 discord eaccb at position 245208 from 4.202061993831124 to 1.25964280651302
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #4/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 325000 refines dist of #3/4 discord dabee at position 377080 from 4.7772690943676235 to 3.5555590277760794
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #5/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 406250 refines dist of #3/4 discord eccca at position 409308 from 4.292234266672772 to 1.5428788027580127
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #6/3 discord
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 487500 refines dist of #1/4 discord deada at position 496425 from 4.37599131626195 to 3.5390853338115473
+2015-01-19 15:28:19 ÏêÏ¸ prd.Prd discoverDiscordsInParallel Refining #7/3 discord
+
+
+
+discords=t(rev(c(194574,438829,308062,219243,483045,245208,499965,371104,163339,52747,39511,409308,244690,647376,378536,12948,62852,185209,128419,452635,111761,349205,587274,496425,377080,279560,157098,567090,142070,583237,582635,546561)))
+words=t(rev(c("bacce","daddd","bbdec","cbbea","ebdca","eaccb","ebcbc","dadcd","caddc","baddd","ebcba","eccca","dadcd","daecc","ebaae","caced","bbcde","ebbda","dbbea","caddd","dabcd","eacae","eadcd","deada","dabee","cabbe","dabee","bcaee","bebcb","aaddd","ecdda","cbbae")))
+distances=t(rev(c(0.6403,0.8086,0.9603,1.1212,1.1368,1.2596,1.3512,1.3936,1.4141,1.4768,1.5242,1.5429,1.6503,1.6977,1.7267,1.8171,1.8408,1.9801,2.047,2.0555,2.3083,2.8771,2.9417,3.5391,3.5556,4.0746,4.2428,4.3768,4.6795,5.1962,5.4152,11.6669)))
+
+DONE
+2015-01-19 15:28:19 ÏêÏ¸ prd.WORKER refineDiscord WORKER at 568750 refines dist of #1/4 discord eadcd at position 587274 from 4.7860395944872876 to 2.941670443812492
+2015-01-19 15:28:19 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 3
+2015-01-19 15:28:19 ÐÅÏ¢ prd.Prd discoverDiscordsInParallel Workers found 8 more discords in round 3
+BUILD SUCCESSFUL (total time: 6 minutes 19 seconds)
+
+
+
+ECG100.arff length=360 parallelism 1 on ian-lab, precise version of kernel function
+
+
+
+run:
+2015-01-24 22:27:10 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords starting discords finding routines
+2015-01-24 22:28:14 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #1 discord: cbade at 546582, distance 10.94500913658824, elapsed time: 1m 4s 241ms, #distfunc: 18748951
+2015-01-24 22:36:13 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #2 discord: aaddd at 583237, distance 4.222200255790813, elapsed time: 7m 59s 65ms, #distfunc: 182692231
+2015-01-24 23:01:20 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #3 discord: badde at 582876, distance 3.096978366085239, elapsed time: 25m 6s 945ms, #distfunc: 595407365
+2015-01-24 23:18:59 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #4 discord: dcaea at 66510, distance 2.7935327096706777, elapsed time: 17m 38s 571ms, #distfunc: 417841705
+2015-01-24 23:21:55 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #5 discord: abdec at 141935, distance 2.7824719225896968, elapsed time: 2m 56s 374ms, #distfunc: 64196269
+2015-01-24 23:24:56 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #6 discord: ceabd at 421646, distance 2.7731795830778787, elapsed time: 3m 0s 945ms, #distfunc: 66147639
+2015-01-24 23:38:51 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #7 discord: ebdca at 397118, distance 2.580600705262244, elapsed time: 13m 54s 259ms, #distfunc: 329267006
+2015-01-24 23:42:25 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #8 discord: ebbbe at 99575, distance 2.5572886031889333, elapsed time: 3m 34s 313ms, #distfunc: 79590815
+2015-01-24 23:51:27 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #9 discord: bdade at 158380, distance 2.4741665263276023, elapsed time: 9m 2s 522ms, #distfunc: 209156736
+2015-01-24 23:56:56 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #10 discord: cbebb at 567168, distance 2.4279363665467026, elapsed time: 5m 28s 568ms, #distfunc: 125604729
+2015-01-25 00:10:53 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #11 discord: bcdae at 454297, distance 2.2973082074462727, elapsed time: 13m 57s 144ms, #distfunc: 331675001
+2015-01-25 00:12:39 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #12 discord: beabe at 346454, distance 2.287181671839821, elapsed time: 1m 45s 924ms, #distfunc: 36209762
+2015-01-25 00:15:48 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #13 discord: eabbe at 562805, distance 2.2789635802267663, elapsed time: 3m 8s 636ms, #distfunc: 69717932
+2015-01-25 00:18:31 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #14 discord: cabce at 305684, distance 2.2644480563704703, elapsed time: 2m 43s 285ms, #distfunc: 59817089
+2015-01-25 00:20:18 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #15 discord: deabd at 574076, distance 2.2563853837498598, elapsed time: 1m 46s 673ms, #distfunc: 36524547
+2015-01-25 00:23:15 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #16 discord: eccbb at 128086, distance 2.228570169413564, elapsed time: 2m 57s 716ms, #distfunc: 64994954
+2015-01-25 00:25:37 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #17 discord: edabd at 584558, distance 2.2179100522789463, elapsed time: 2m 21s 742ms, #distfunc: 50438965
+2015-01-25 00:28:44 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #18 discord: dbdda at 579203, distance 2.2006249112468033, elapsed time: 3m 7s 294ms, #distfunc: 67995788
+2015-01-25 00:30:20 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #19 discord: badde at 596840, distance 2.1954099844903694, elapsed time: 1m 35s 971ms, #distfunc: 32186465
+2015-01-25 00:40:36 ÏêÏ¸ PreciseDiscord.PreciseDiscord findDiscords Find #20 discord: ddeaa at 628971, distance 2.1256822434220966, elapsed time: 10m 16s 170ms, #distfunc: 242127280
+
+
+
+discords=t(rev(c(628971,596840,579203,584558,128086,574076,305684,562805,346454,454297,567168,158380,99575,397118,421646,141935,66510,582876,583237,546582)))
+words=t(rev(c("ddeaa","badde","dbdda","edabd","eccbb","deabd","cabce","eabbe","beabe","bcdae","cbebb","bdade","ebbbe","ebdca","ceabd","abdec","dcaea","badde","aaddd","cbade")))
+distances=t(rev(c(2.1257,2.1954,2.2006,2.2179,2.2286,2.2564,2.2644,2.279,2.2872,2.2973,2.4279,2.4742,2.5573,2.5806,2.7732,2.7825,2.7935,3.097,4.2222,10.945)))
+
+DONE
+BUILD SUCCESSFUL (total time: 133 minutes 56 seconds)
+
+
+
+ECG100.arff length=360 parallelism 8 on ian-lab, precise version of kernel function
+
+
+run:
+2015-01-26 09:40:40 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #0/0 discord...
+2015-01-26 09:41:39 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 0 finds #0 discord: cabbe at 2044, distance 3.373410736924869, elapsed time: 0m 59s 93ms, #distfunc: 21518377
+2015-01-26 09:41:39 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #1/0 discord...
+2015-01-26 09:42:25 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 81250 finds #0 discord: ebbbb at 128077, distance 3.7561982109574577, elapsed time: 0m 46s 114ms, #distfunc: 16487401
+2015-01-26 09:42:25 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #2/0 discord...
+2015-01-26 09:43:15 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 162500 finds #0 discord: dabbe at 170717, distance 3.446614280710849, elapsed time: 0m 49s 748ms, #distfunc: 18365155
+2015-01-26 09:43:15 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #3/0 discord...
+2015-01-26 09:44:25 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 243750 finds #0 discord: cabde at 305695, distance 3.2838544425720206, elapsed time: 1m 9s 530ms, #distfunc: 26484493
+2015-01-26 09:44:25 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #4/0 discord...
+2015-01-26 09:45:20 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 325000 finds #0 discord: dabce at 377059, distance 3.6377053206657632, elapsed time: 0m 55s 177ms, #distfunc: 21652263
+2015-01-26 09:45:20 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #5/0 discord...
+2015-01-26 09:46:17 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 406250 finds #0 discord: ebdda at 454407, distance 3.2576371805343802, elapsed time: 0m 57s 112ms, #distfunc: 22392006
+2015-01-26 09:46:17 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #6/0 discord...
+2015-01-26 09:46:27 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 487500 finds #0 discord: cbaed at 546594, distance 10.950038812716604, elapsed time: 0m 9s 890ms, #distfunc: 2973732
+2015-01-26 09:46:27 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #7/0 discord...
+2015-01-26 09:46:55 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 568750 finds #0 discord: abddd at 583240, distance 4.629665214678054, elapsed time: 0m 27s 877ms, #distfunc: 9618791
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #0/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.WORKER refineDiscord WORKER at 0 refines dist of #0/1 discord cabbe at position 2044 from 3.373410736924869 to 3.3013671410492895
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #1/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #2/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.WORKER refineDiscord WORKER at 162500 refines dist of #0/1 discord dabbe at position 170717 from 3.446614280710849 to 2.3723722304899795
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #3/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #4/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #5/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #6/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #7/0 discord
+2015-01-26 09:46:55 ?? ParallelDiscord.WORKER refineDiscord WORKER at 568750 refines dist of #0/1 discord abddd at position 583240 from 4.629665214678054 to 4.3968227164624265
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 0
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 0
+2015-01-26 09:46:55 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #0/1 discord...
+2015-01-26 09:47:29 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 0 finds #1 discord: dabce at 66789, distance 3.1522571278371263, elapsed time: 0m 34s 211ms, #distfunc: 12375377
+2015-01-26 09:47:29 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #1/1 discord...
+2015-01-26 09:47:56 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 81250 finds #1 discord: ebbbe at 99573, distance 3.5939184743118435, elapsed time: 0m 26s 645ms, #distfunc: 8892638
+2015-01-26 09:47:56 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #2/1 discord...
+2015-01-26 09:48:24 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 162500 finds #1 discord: cadeb at 242597, distance 3.2331524863513588, elapsed time: 0m 28s 111ms, #distfunc: 9913314
+2015-01-26 09:48:24 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #3/1 discord...
+2015-01-26 09:48:48 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 243750 finds #1 discord: dadea at 307469, distance 3.134302155185424, elapsed time: 0m 24s 102ms, #distfunc: 8540027
+2015-01-26 09:48:48 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #4/1 discord...
+2015-01-26 09:49:32 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 325000 finds #1 discord: eabbe at 351473, distance 3.30809990780206, elapsed time: 0m 44s 257ms, #distfunc: 16376836
+2015-01-26 09:49:32 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #5/1 discord...
+2015-01-26 09:49:53 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 406250 finds #1 discord: eabbc at 421991, distance 3.150285701329325, elapsed time: 0m 20s 810ms, #distfunc: 7083096
+2015-01-26 09:49:53 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #6/1 discord...
+2015-01-26 09:50:48 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 487500 finds #1 discord: bbcbe at 567026, distance 3.698421960782732, elapsed time: 0m 55s 193ms, #distfunc: 20649723
+2015-01-26 09:50:48 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #7/1 discord...
+2015-01-26 09:51:28 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 568750 finds #1 discord: dabbe at 574428, distance 4.014551656162863, elapsed time: 0m 39s 359ms, #distfunc: 13660601
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #0/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #1/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.WORKER refineDiscord WORKER at 81250 refines dist of #0/2 discord ebbbe at position 99573 from 3.5939184743118435 to 3.0216386282942573
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #2/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #3/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.WORKER refineDiscord WORKER at 243750 refines dist of #0/2 discord dadea at position 307469 from 3.134302155185424 to 0.8953770155638352
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #4/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #5/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #6/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #7/1 discord
+2015-01-26 09:51:28 ?? ParallelDiscord.WORKER refineDiscord WORKER at 568750 refines dist of #0/2 discord dabbe at position 574428 from 4.014551656162863 to 3.441151696743402
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 1
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 1
+2015-01-26 09:51:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #0/2 discord...
+2015-01-26 09:51:40 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 0 finds #2 discord: dabbe at 74977, distance 3.090703803343185, elapsed time: 0m 12s 745ms, #distfunc: 3929241
+2015-01-26 09:51:40 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #1/2 discord...
+2015-01-26 09:52:09 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 81250 finds #2 discord: debba at 142125, distance 3.4332783167113035, elapsed time: 0m 28s 954ms, #distfunc: 9783616
+2015-01-26 09:52:09 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #2/2 discord...
+2015-01-26 09:52:30 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 162500 finds #2 discord: eacdb at 185504, distance 3.124015845030242, elapsed time: 0m 20s 748ms, #distfunc: 6974767
+2015-01-26 09:52:30 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #3/2 discord...
+2015-01-26 09:52:37 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 243750 finds #2 discord: dceab at 279378, distance 3.1290373919146455, elapsed time: 0m 6s 365ms, #distfunc: 1534161
+2015-01-26 09:52:37 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #4/2 discord...
+2015-01-26 09:52:49 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 325000 finds #2 discord: dabbe at 346794, distance 3.261475892904928, elapsed time: 0m 12s 480ms, #distfunc: 3811472
+2015-01-26 09:52:49 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #5/2 discord...
+2015-01-26 09:52:56 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 406250 finds #2 discord: ceacd at 435828, distance 3.140955268704093, elapsed time: 0m 7s 4ms, #distfunc: 1724492
+2015-01-26 09:52:56 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #6/2 discord...
+2015-01-26 09:53:14 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 487500 finds #2 discord: dabbe at 562801, distance 3.646457184720534, elapsed time: 0m 18s 2ms, #distfunc: 5897660
+2015-01-26 09:53:14 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Discovering #7/2 discord...
+2015-01-26 09:53:28 ?? ParallelDiscord.WORKER findNextDiscord WORKER at 568750 finds #2 discord: aadde at 582880, distance 3.954197137220147, elapsed time: 0m 14s 134ms, #distfunc: 3787987
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #0/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #1/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #2/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #3/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #4/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #5/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #6/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Refining #7/2 discord
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 2
+2015-01-26 09:53:28 ?? ParallelDiscord.ParallelDiscord discoverDiscordsInParallel Workers found 8 more discords in round 2
+
+
+
+discords=t(rev(c(307469,170717,99573,74977,185504,279378,435828,421991,66789,242597,454407,346794,305695,2044,351473,142125,574428,377059,562801,567026,128077,582880,583240,546594)))
+words=t(rev(c("dadea","dabbe","ebbbe","dabbe","eacdb","dceab","ceacd","eabbc","dabce","cadeb","ebdda","dabbe","cabde","cabbe","eabbe","debba","dabbe","dabce","dabbe","bbcbe","ebbbb","aadde","abddd","cbaed")))
+distances=t(rev(c(0.8954,2.3724,3.0216,3.0907,3.124,3.129,3.141,3.1503,3.1523,3.2332,3.2576,3.2615,3.2839,3.3014,3.3081,3.4333,3.4412,3.6377,3.6465,3.6984,3.7562,3.9542,4.3968,10.95)))
+
+DONE
+BUILD SUCCESSFUL (total time: 13 minutes 0 seconds)
+

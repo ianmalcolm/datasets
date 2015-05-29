@@ -1,0 +1,4 @@
+set terminal pdf
+set output "exnoise.pdf"
+set datafile commentschars "#@"
+plot "exnoise.arff" using 1 title 'Example'

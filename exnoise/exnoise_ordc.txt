@@ -1,0 +1,6 @@
+discord "abcde", at 168 distance to closest neighbor: 0.3598139863441078
+discord "aceeb", at 684 distance to closest neighbor: 0.3815959984712579
+discord "aabde", at 353 distance to closest neighbor: 0.4027712137369489
+discord "acedc", at 307 distance to closest neighbor: 1.5220830678495507
+discord "adddc", at 119 distance to closest neighbor: 1.643414761862387
+119 307 353 684 168

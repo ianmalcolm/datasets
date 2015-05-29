@@ -1,0 +1,21 @@
+discord "", at 15383 distance to closest neighbor: 40.76098552678286
+discord "", at 35323 distance to closest neighbor: 40.87526549277451
+discord "", at 27603 distance to closest neighbor: 43.525457604466425
+discord "", at 24604 distance to closest neighbor: 43.739384493960166
+discord "", at 19843 distance to closest neighbor: 49.930154248017004
+discord "", at 11210 distance to closest neighbor: 51.21623361815947
+discord "", at 13887 distance to closest neighbor: 51.90702618403178
+discord "", at 31470 distance to closest neighbor: 55.74982919116187
+discord "", at 5866 distance to closest neighbor: 56.877389592803816
+discord "", at 9060 distance to closest neighbor: 58.56858880506688
+discord "", at 22517 distance to closest neighbor: 58.86150138602652
+discord "", at 29681 distance to closest neighbor: 64.87491822102433
+discord "", at 6155 distance to closest neighbor: 67.04239913798497
+discord "", at 7642 distance to closest neighbor: 81.75019668893509
+discord "", at 7310 distance to closest neighbor: 82.98051457547727
+discord "", at 8833 distance to closest neighbor: 91.54544224439684
+discord "", at 6373 distance to closest neighbor: 95.17290019533942
+discord "", at 6749 distance to closest neighbor: 96.09437158716602
+discord "", at 7034 distance to closest neighbor: 97.65971336555053
+discord "", at 7937 distance to closest neighbor: 126.98332350426719
+7937 7034 6749 6373 8833 7310 7642 6155 29681 22517
